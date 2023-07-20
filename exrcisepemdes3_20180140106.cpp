@@ -35,3 +35,13 @@ public:
 	void tambahbuku(buku*);
 	void cetakbuku();
 };
+
+class penerbit {
+public:
+	string namapenerbit;
+	vector<pengarang*> daftarpengarang;
+	penerbit(string pNama) : namapenerbit(pNama) {}
+
+	void tambahpengarang(pengarang*);
+	void cetakpengarang();
+};
